@@ -12,13 +12,7 @@ namespace TheLightBulbAdventure
 
         public void Toggle()
         {
-            if (brandend)
-            {
-                brandend = false;
-            }else if (!brandend)
-            {
-                brandend = true;
-            }
+            brandend = !brandend;
         }
 
         public bool Brandend
