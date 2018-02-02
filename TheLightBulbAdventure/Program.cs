@@ -14,7 +14,6 @@ namespace TheLightBulbAdventure
             Console.WriteLine("Er vas een een jongen en een meisje.");
 
 
-
             var uriko = new Persoon("Uiko");
             var mako = new Persoon("Mako");
 
