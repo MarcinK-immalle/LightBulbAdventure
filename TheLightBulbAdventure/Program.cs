@@ -25,7 +25,7 @@ namespace TheLightBulbAdventure
             uriko.Geboortedatum = new DateTime(2000, 1, 1);
             mako.Geboortedatum = new DateTime(2000, 1, 1);
 
-
+            Console.WriteLine("Uri is {0} years.", uriko.Leeftijd);
 
 
         }
