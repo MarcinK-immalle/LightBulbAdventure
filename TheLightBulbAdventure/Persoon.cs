@@ -8,7 +8,13 @@ namespace TheLightBulbAdventure
 {
     class Persoon
     {
-        public string Voornaam { get; set; }
+        public Persoon(string voornaam)
+        {
+            Voornaam = voornaam;
+            Console.WriteLine("{0}: Hee! Ik leef!", voornaam);
+        }
+
+        public string Voornaam { get; }
         public string Naam { get; set; }
         public string Postcode { get; set; }
         public DateTime Geboortedatum { get; set; }
@@ -19,7 +25,5 @@ namespace TheLightBulbAdventure
                 return (int)(ts.TotalDays / 365);
             }
         }
-
-
     }
 }
