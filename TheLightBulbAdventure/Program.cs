@@ -13,6 +13,9 @@ namespace TheLightBulbAdventure
             var uriko = new Persoon();
             var mako = new Persoon();
 
+            var ledLanp = new Lamp();
+            var zaklamp = new Lamp();
+
             uriko.Voornaam = "Uriko";
             mako.Voornaam = "Mako";
 
@@ -27,7 +30,9 @@ namespace TheLightBulbAdventure
 
             Console.WriteLine("Uri is {0} years.", uriko.Leeftijd);
 
-
+            Console.WriteLine("De Zaklamp brandt {0}.", zaklamp.Brandend ? "" : "niet");
+            zaklamp.Toggle();
+            Console.WriteLine("De Zaklamp brandt {0}.", zaklamp.Brandend ? "" : "niet");
         }
     }
 }

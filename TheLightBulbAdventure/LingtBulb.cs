@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TheLightBulbAdventure
 {
-    class LingtBulb
+    class Lamp
     {
         private bool brandend = false;
 
@@ -29,6 +29,4 @@ namespace TheLightBulbAdventure
             }
         }
     }
-
-
 }
