@@ -10,6 +10,21 @@ namespace TheLightBulbAdventure
     {
         static void Main(string[] args)
         {
+            var uriko = new Persoon();
+            var mako = new Persoon();
+
+            uriko.Voornaam = "Uriko";
+            mako.Voornaam = "Mako";
+
+            uriko.Naam = "Mitek";
+            mako.Naam = "n/a";
+
+            uriko.Postcode = "666";
+            mako.Postcode = "666";
+
+            uriko.Geboortedatum = new DateTime(2000, 1, 1);
+            mako.Geboortedatum = new DateTime(2000, 1, 1);
+
 
 
 
